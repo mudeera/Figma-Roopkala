@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../font/Commissioner-Black.woff2') format('woff2'),
+        url('../font/PlayfairDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../font/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../font/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../font/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('../font/PlayfairDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../font/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('../font/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../font/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../font/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../font/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('../font/PlayfairDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-Bold.woff2') format('woff2'),
+        url('../font/Commissioner-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-Black.woff2') format('woff2'),
+        url('../font/Commissioner-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-BlackItalic.woff2') format('woff2'),
+        url('../font/Commissioner-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/Commissioner-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-ExtraBold.woff2') format('woff2'),
+        url('../font/Commissioner-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-BoldItalic.woff2') format('woff2'),
+        url('../font/Commissioner-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-BlackItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/Commissioner-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-ExtraLight.woff2') format('woff2'),
+        url('../font/Commissioner-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-Black.woff2') format('woff2'),
+        url('../font/CommissionerFlair-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-Bold.woff2') format('woff2'),
+        url('../font/CommissionerFlair-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-BoldItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-ExtraBold.woff2') format('woff2'),
+        url('../font/CommissionerFlair-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-Italic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-Light.woff2') format('woff2'),
+        url('../font/CommissionerFlair-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-ExtraLight.woff2') format('woff2'),
+        url('../font/CommissionerFlair-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-LightItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-MediumItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-SemiBold.woff2') format('woff2'),
+        url('../font/CommissionerFlair-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-Regular.woff2') format('woff2'),
+        url('../font/CommissionerFlair-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-Medium.woff2') format('woff2'),
+        url('../font/CommissionerFlair-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-ThinItalic.woff2') format('woff2'),
+        url('../font/CommissionerFlair-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-LightItalic.woff2') format('woff2'),
+        url('../font/Commissioner-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Flair';
+    src: url('../font/CommissionerFlair-Thin.woff2') format('woff2'),
+        url('../font/CommissionerFlair-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner Loud';
+    src: url('../font/CommissionerLoud-Black.woff2') format('woff2'),
+        url('../font/CommissionerLoud-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-Light.woff2') format('woff2'),
+        url('../font/Commissioner-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('../font/Commissioner-Italic.woff2') format('woff2'),
+        url('../font/Commissioner-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background: #FAFAFA;
+} */
+.container{
+    max-width: 1360px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+li {
+    list-style: none;
+}
+input {
+    outline: none;
+    border: none;
+    background: none;
+}
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+}
+@media screen and (max-width:1279px) {
+    .container{
+        padding: 0 20px;
+    }
+}
